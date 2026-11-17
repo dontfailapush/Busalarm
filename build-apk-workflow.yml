@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Generate Android project
-        run: node scripts/prepare-android.mjs
+        run: node prepare-android.mjs
 
       - name: Build APK
         working-directory: android
